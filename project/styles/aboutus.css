@@ -1,0 +1,27 @@
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid black;
+	box-shadow: 0 9px 18px 9px;
+    text-align: center;
+}
+
+html {
+	background-image: url("../images/background.jpg");	
+}
+
+h1 {
+    font-family: serif;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+
+p {
+
+font-style: italic;
+font-family: serif;
+}

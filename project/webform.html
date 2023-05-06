@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+    <title>Contact Us!</title>
+    <link rel="shortcut icon" href="images/symbol.png">
+    <link rel="stylesheet" href="styles/webform.css">
+    
+    <style>
+    	* {
+    		margin: 0;
+    		padding: 0;
+    	}
+		body {
+			font: 87.5% Arial, Helvetica, sans-serif;
+			width: 500px;
+		    margin: 20px auto;
+		    padding: 20px;
+		    border: 2px solid blue;
+		}
+		h1 {
+			color: blue; 
+			font-size: 140%;
+		}
+		h2 {
+			font-size: 115%;
+			padding: .5em 0;
+            
+		}
+		label {
+			color: blue;
+			float: left;
+			width: 8em;
+			font-weight: bold;
+			text-align: left;
+		}
+		input {
+			width: 15em;
+			margin: 0 0 .5em 1em;
+		}
+		#button, #reset {
+			width: 7em;
+			background-color: silver;
+			box-shadow: 2px 2px 0 blue; }
+		#button {
+			margin-left: 9em;
+		}
+        textarea {
+height: 5em; width: 25em;
+font-family: Arial, Helvetica, sans-serif; }
+        
+	</style>
+</head>
+
+<body>
+<img src="images/symbol.png" alt="symbol" width="85">
+<h1>Sign up today!</h1>
+<form name="myform" action="project2.html" method="get">
+	
+	<h2>Contact information</h2>
+	
+    
+    <label for="firstname">Name:</label>
+    <input type="text" name="name" id="name" fdprocessedid="b4lcj"><br>
+    <label for="lastname">Address:</label>
+    <input type="text" name="address" id="address" fdprocessedid="01vqq"><br>
+    <label for="email">Email address:</label>
+    <input type="email" name="email" id="email" fdprocessedid="mpzbce"><br>
+    <label for="phone">Telephone:</label>
+    <input type="phone" name="phone" id="phone" placeholder="(000-000-0000)" fdprocessedid="mpzbce"><br>
+    
+    
+    <h2>How can we send you updates?</h2>
+    <label for="email">Email:</label>
+    <input type="checkbox" name="email" value="email"><br>
+    <label for="twitter">Twitter:</label>
+    <input type="checkbox" name="twitter" value="twitter"><br>
+    <label for="number" >Phone Number:</label>
+    <input type="checkbox" name="number" value="number"><br>
+    
+    <h2>Thank you!</h2>
+    
+    <input type="submit" id="submitform" value="Submit"> 
+    
+     
+</form>
+
+</body></html>

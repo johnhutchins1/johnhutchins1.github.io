@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>About us</title>
+       <link rel="shortcut icon" href="images/symbol.png">
+       <link rel="stylesheet" href="styles/aboutus.css">
+    </head>
+    <body>
+    <h1>Our History</h1>
+    <p style="border-width:3px; border-style:solid; border-color:black; padding: 1em;">Harvird has had a rich history spanning over 100-years in which we have taught thousands of students bringing success through their earned professions! We are proud of our heritage, faculty, and students here at Harvird!</p>
+    
+    <img id="school" src="images/school1.jpg" style="width: 400px; height: 400px;">
+    <body2>    
+    <p></p>
+    </body2>    
+        
+    
+    <script>
+        
+        document.getElementById("school").addEventListener("mouseover", changeimage);
+        document.getElementById("school").addEventListener("mouseleave", changeimage2);
+        
+        function changeimage() {
+            
+            var image = document.getElementById("school").src = "images/school2.jpg";
+        }
+        
+        function changeimage2() {
+            
+            var image = document.getElementById("school").src = "images/school1.jpg";
+        }
+        
+        
+    </script>
+    
+    </body>
+</html>
+    
+
+        
+        
